@@ -21,6 +21,7 @@ La solución prioriza la eficiencia algorítmica y la integridad de los datos, i
 | **💻 Repositorio GitHub** | [github.com/Blinnnnd/Api-Mutantes](https://github.com/Blinnnnd/Api-Mutantes) |
 | **☁️ API en Producción** | [api-mutantes-global.onrender.com](https://api-mutantes-global.onrender.com) |
 | **📄 Documentación (Swagger)** | [Swagger UI Live](https://api-mutantes-global.onrender.com/swagger-ui.html) |
+| **📄 H2 Console Link Universal** (JDBC URL: jdbc:h2:mem:mutantes | Username: Sa | Password: Vacio) | (https://api-mutantes-global.onrender.com/swagger-ui.html) |
 
 ---
 
@@ -85,10 +86,40 @@ Output:
 400 Bad Request: Formato inválido.
 
 JSON
+MUTANTES EJEMPLOS
+{
+  "dna": [
+    "ATGCGA",
+    "CAGTGC",
+    "TTATGT",
+    "AGAAGG",
+    "CCCCTA",
+    "TCACTG"
+  ]
+}
+{
+  "dna": ["ATGCGA",
+          "CAGTGC",
+          "TTATGT",
+          "AGAAGG",
+          "CCCCTA",
+          "TCACTG"]
+}
+
+HUMANOS EJEMPLOS
 
 {
-  "dna": ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
+    "dna": [
+        "ATGCGA",
+        "CAGTGC",
+        "TTATTT",
+        "AGACGG",
+        "GCGTCA",
+        "TCACTG"
+    ]
 }
+
+
 GET /stats
 Provee estadísticas de uso del sistema en tiempo real.
 
