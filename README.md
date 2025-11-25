@@ -21,7 +21,7 @@ La solución prioriza la eficiencia algorítmica y la integridad de los datos, i
 | **💻 Repositorio GitHub** | [github.com/Blinnnnd/Api-Mutantes](https://github.com/Blinnnnd/Api-Mutantes) |
 | **☁️ API en Producción** | [api-mutantes-global.onrender.com](https://api-mutantes-global.onrender.com) |
 | **📄 Documentación (Swagger)** | [Swagger UI Live](https://api-mutantes-global.onrender.com/swagger-ui.html) |
-| **📄 H2 Console Link Universal** (JDBC URL: jdbc:h2:mem:mutantes , Username: Sa , Password: Vacio) | [H2 Console](https://api-mutantes-global.onrender.com/swagger-ui.html) |
+| **📄 H2 Console Link Universal** (JDBC URL: jdbc:h2:mem:mutantes , Username: Sa , Password: Vacio) | [H2 Console](https://api-mutantes-global.onrender.com/h2-console) 
 
 ---
 
